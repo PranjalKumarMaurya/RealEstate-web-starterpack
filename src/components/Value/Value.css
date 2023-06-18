@@ -20,17 +20,20 @@
     margin-bottom: 1.2rem;
 }
 .accordionButton {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
     background: white;
     padding: 1rem;
     width: 100%;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     cursor: pointer;
 }
-.accordionButton .icon {
+.icon {
+    display: flex;
     padding: 0.7rem;
     background: #eeeeff;
     border-radius: 0.3rem;
-    
 }
 .icon svg {
     fill: var(--blue);

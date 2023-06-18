@@ -33,10 +33,10 @@ export default function Value() {
                                 return(
                                     <AccordionItem className="accordionItem" key={i} uuid={i}>
                                         <AccordionItemHeading>
-                                            <AccordionItemButton className="flexCenter accordionButton">
-                                                <div className="icon flexCenter">{item.icon}</div>
+                                            <AccordionItemButton className="accordionButton">
+                                                <div style={{width:'2.5rem'}} className="icon">{item.icon}</div>
                                                 <span className="primaryText">{item.heading}</span>
-                                                <div className="flexCenter icon">
+                                                <div style={{width:'2.5rem'}} className="icon">
                                                     <MdOutlineArrowDropDown size={20} />
                                                 </div>
                                             </AccordionItemButton>

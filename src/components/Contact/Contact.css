@@ -1,0 +1,42 @@
+.c-container {
+    justify-content: space-between;
+}
+.c-container div {
+    flex : 1;
+}
+.c-right {
+    width: 100%;
+}
+.c-left {
+    gap: 0.5rem;
+}
+.c-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.c-card {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: .8px solid rgba(128,128,128,.143);
+    padding: 0.5rem 1rem;
+    transition: all 300ms ease-in;
+}
+.c-card:hover {
+    transform: scale(1.1);
+}
+.upperLayer {
+    display: flex;
+    width: 100%;
+    gap: 1.6rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+.c-info {
+    display: flex;
+    flex-direction: column;
+}
+
